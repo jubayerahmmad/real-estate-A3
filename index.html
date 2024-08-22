@@ -138,10 +138,10 @@
       </div>
     </header>
 
-    <main class="bg-slate-100 p-4">
+    <main class="bg-slate-100">
       <!-- ?about us section -->
       <section
-        class="about-us py-10"
+        class="about-us py-10 px-6"
         style="
           background-image: url(./assets/Vector.png);
           background-repeat: no-repeat;
@@ -170,10 +170,10 @@
             <div class="cards-container lg:space-y-6">
               <!-- card 1 -->
               <div
-                class="flex justify-center items-center text-left mb-8 space-x-4 p-4 rounded-2xl bg-white"
+                class="flex justify-center items-center text-left mb-8 space-x-4 p-8 rounded-2xl bg-white"
               >
-                <div>
-                  <img class="" src="./assets/commercial.png" alt="" />
+                <div class="w-full md:w-auto">
+                  <img class="w-full" src="./assets/commercial.png" alt="" />
                 </div>
                 <div>
                   <h4 class="font-bold text-xl">Commercial</h4>
@@ -187,10 +187,10 @@
 
               <!-- card 2 -->
               <div
-                class="flex justify-center items-center text-left mb-6 space-x-4 p-4 rounded-2xl bg-white"
+                class="flex justify-center items-center text-left mb-6 space-x-4 p-8 rounded-2xl bg-white"
               >
-                <div>
-                  <img class="" src="./assets/residential.png" alt="" />
+                <div class="w-full md:w-auto">
+                  <img class="w-full" src="./assets/residential.png" alt="" />
                 </div>
                 <div>
                   <h4 class="font-bold text-xl">Residential</h4>
@@ -218,7 +218,7 @@
       </section>
 
       <!--? how we work section -->
-      <section class="our-work-process">
+      <section class="our-work-process px-6">
         <div class="container mx-auto py-10">
           <!-- headings  -->
           <div class="text-center space-y-4">
@@ -295,7 +295,7 @@
       </section>
 
       <!--? our latest portfolio section -->
-      <section class="our-latest-portfolio p-2 bg-white">
+      <section class="our-latest-portfolio px-6 bg-white">
         <div class="container mx-auto py-10">
           <!-- headings  -->
           <div class="text-center space-y-4">
@@ -398,7 +398,7 @@
 
       <!--? testimonials section -->
       <section class="testimonials">
-        <div class="container mx-auto py-6">
+        <div class="container mx-auto py-6 px-6">
           <!-- headings  -->
           <div class="text-center space-y-4">
             <button class="text-xl bg-slate-200 p-2 rounded-3xl">
@@ -464,12 +464,63 @@
               </p>
             </div>
           </div>
+          <!-- show more -->
+          <div class="flex justify-end mt-4">
+            <button class="text-xl bg-primary p-2 rounded-3xl">
+              Show More<i class="fa-solid fa-arrow-right mx-2 -rotate-45"></i>
+            </button>
+          </div>
         </div>
-        <!-- show more -->
-        <div class="flex justify-center">
-          <button class="text-xl bg-primary p-2 rounded-3xl">
-            Show More<i class="fa-solid fa-arrow-right mx-2"></i>
-          </button>
+      </section>
+
+      <!-- ?lets connect -->
+
+      <section class="lets-connect px-6" style="background-image: url(./assets/bg.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container mx-auto py-6">
+          <!-- headings  -->
+          <div class="text-center space-y-4">
+            <button class="text-xl bg-secondary p-2 rounded-3xl">
+              <i class="fa-solid fa-arrow-right mx-2"></i>Let's Connect
+            </button>
+            <h3 class="font-bold text-3xl lg:text-6xl">
+              Let’s Discuss Next Project
+            </h3>
+            <p class="text-lg lg:w-2/3 mx-auto opacity-80">
+              We'd love to discuss your project, any questions, or just to say
+              hi.
+            </p>
+          </div>
+          <!-- contact form -->
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+              <input
+                type="text"
+                placeholder="First Name*"
+                class="focus:outline-none p-4 rounded-3xl"
+              />
+              <input
+                type="text"
+                placeholder="Last Name*"
+                class="focus:outline-none p-4 rounded-3xl"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                class="focus:outline-none p-4 rounded-3xl"
+              />
+              <input
+                type="number"
+                placeholder="Phone Number"
+                class="focus:outline-none  p-4 rounded-3xl"
+              />
+              <textarea
+                placeholder="Your Message"
+                class="focus:outline-none md:col-span-2 p-4 rounded-3xl h-40"
+              ></textarea>
+              <button class="text-xl bg-primary p-2 md:col-span-2 rounded-3xl">
+                Send Message<i class="fa-solid fa-paper-plane mx-2"></i>
+              </button>
+            </form>
+
         </div>
       </section>
     </main>
