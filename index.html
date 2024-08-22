@@ -50,7 +50,7 @@
   </head>
   <body>
     <header class="container mx-auto pt-6 pb-20">
-      <!-- navbar  -->
+      <!--? navbar  -->
       <div class="navbar bg-base-100 my-4">
         <div class="navbar-start">
           <a class="btn btn-ghost text-3xl font-bold">
@@ -113,14 +113,14 @@
         </div>
       </div>
 
-      <!-- hero section  -->
+      <!--? hero section  -->
 
       <!-- image  -->
       <div>
         <img class="object-cover mx-auto" src="./assets/banner.png" alt="" />
       </div>
       <!-- text and button  -->
-      <div class="text-center space-y-6 lg:w-10/12 mx-auto">
+      <div class="text-center p-4 space-y-6 lg:w-10/12 mx-auto">
         <h1 class="text-3xl lg:text-7xl text-black font-extrabold">
           A barn house of this design has a striking appearance
         </h1>
@@ -138,7 +138,87 @@
       </div>
     </header>
 
-    <main></main>
+    <main class="bg-slate-100 p-4">
+      <!-- ?about us section -->
+      <section
+        class="about-us py-10"
+        style="
+          background-image: url(./assets/Vector.png);
+          background-repeat: no-repeat;
+          background-position-x: 30px;
+        "
+      >
+        <div class="container mx-auto lg:flex lg:justify-between space-x-16">
+          <!-- left content  -->
+          <div class="lg:w-1/2 text-center lg:text-left py-4 lg:space-y-10">
+            <button class="text-xl bg-slate-200 p-2 rounded-3xl">
+              <i class="fa-solid fa-arrow-right mx-2"></i>About Us
+            </button>
+            <div>
+              <h3 class="font-bold text-3xl lg:text-6xl">
+                We design thoughtful, liveable spaces
+              </h3>
+
+              <p class="text-lg opacity-80">
+                Rinterio is a leading real estate agency specializing in
+                providing exceptional property management services. Our team of
+                experienced professionals has been working tirelessly to build
+                trust and create a lasting connection with our clients.
+              </p>
+            </div>
+
+            <div class="cards-container lg:space-y-6">
+              <!-- card 1 -->
+              <div
+                class="flex justify-center items-center text-left mb-8 space-x-4 p-4 rounded-2xl bg-white"
+              >
+                <div>
+                  <img class="" src="./assets/commercial.png" alt="" />
+                </div>
+                <div>
+                  <h4 class="font-bold text-xl">Commercial</h4>
+                  <p class="text-lg opacity-80">
+                    Our team of experienced professionals has been working
+                    tirelessly to build trust and create a lasting connection
+                    with our clients.
+                  </p>
+                </div>
+              </div>
+
+              <!-- card 2 -->
+              <div
+                class="flex justify-center items-center text-left mb-6 space-x-4 p-4 rounded-2xl bg-white"
+              >
+                <div>
+                  <img class="" src="./assets/residential.png" alt="" />
+                </div>
+                <div>
+                  <h4 class="font-bold text-xl">Residential</h4>
+                  <p class="text-lg opacity-80">
+                    Our team of experienced professionals has been working
+                    tirelessly to build trust and create a lasting connection
+                    with our clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right image  -->
+          <div class="lg:w-1/2">
+            <div>
+              <img
+                class="lg:px-6 object-cover -translate-x-7 -scale-x-110 w-full"
+                src="./assets/Rectangle.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
     <footer></footer>
   </body>
 </html>
