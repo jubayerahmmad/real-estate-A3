@@ -141,12 +141,7 @@
     <main class="bg-slate-100">
       <!-- ?about us section -->
       <section
-        class="about-us py-10 px-6"
-        style="
-          background-image: url(./assets/Vector.png);
-          background-repeat: no-repeat;
-          background-position-x: 30px;
-        "
+        class="about-us py-10 px-6 lg:bg-[url('/assets/Vector.png')] bg-no-repeat"
       >
         <div class="container mx-auto lg:flex lg:justify-between space-x-16">
           <!-- left content  -->
@@ -396,6 +391,230 @@
         </div>
       </section>
 
+      <!--? our team section -->
+      <section class="our-team px-6 bg-white">
+        <div class="container mx-auto py-10">
+          <!-- headings  -->
+          <div class="text-center space-y-4">
+            <button class="text-xl bg-secondary p-2 rounded-3xl">
+              <i class="fa-solid fa-arrow-right mx-2"></i>Meet Our Team
+            </button>
+            <h3 class="font-bold text-3xl lg:text-6xl">Our Team</h3>
+            <p class="text-lg lg:w-2/3 mx-auto opacity-80">
+              Our team of experienced professionals has been working tirelessly
+              to build trust and create a lasting connection with our clients.
+            </p>
+          </div>
+
+          <!-- team cards  -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-4"
+          >
+            <!-- card 1 -->
+            <div class="p-4 rounded-2xl bg-slate-100 shadow-md space-y-4">
+              <div class="flex items-center space-x-4">
+                <img
+                  class="w-12 h-12 rounded-full bg-cover"
+                  src="./assets/review2.png"
+                  alt=""
+                />
+                <div class="flex-grow">
+                  <h4 class="font-bold text-xl">John Doe</h4>
+                  <p class="text-sm opacity-80">Architect</p>
+                </div>
+              </div>
+              <p class="text-lg opacity-80">
+                John Doe is a renowned architect with over 20 years of
+                experience in the field. He has been working with Rinterio for
+                over 10 years. He has a passion for creating beautiful and
+                functional homes. John is always eager to learn and improve his
+                skills.
+              </p>
+              <div class="flex items-center space-x-2">
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="p-4 rounded-2xl bg-slate-100 shadow-md space-y-4">
+              <div class="flex items-center space-x-4">
+                <img
+                  class="w-12 h-12 rounded-full bg-cover"
+                  src="./assets/review3.png"
+                  alt=""
+                />
+                <div class="flex-grow">
+                  <h4 class="font-bold text-xl">Jane Smith</h4>
+                  <p class="text-sm opacity-80">Interior Designer</p>
+                </div>
+              </div>
+              <p class="text-lg opacity-80">
+                Jane Smith is a renowned interior designer with over 15 years of
+                experience in the field. She has been working with Rinterio for
+                over 8 years. She has a passion for creating beautiful and
+                functional spaces. Jane is always eager to learn and improve her
+                skills.
+              </p>
+              <div class="flex items-center space-x-2">
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="p-4 rounded-2xl bg-slate-100 shadow-md space-y-4">
+              <div class="flex items-center space-x-4">
+                <img
+                  class="w-12 h-12 rounded-full bg-cover"
+                  src="./assets/review.png"
+                  alt=""
+                />
+                <div class="flex-grow">
+                  <h4 class="font-bold text-xl">Mark Johnson</h4>
+                  <p class="text-sm opacity-80">Project Manager</p>
+                </div>
+              </div>
+              <p class="text-lg opacity-80">
+                Mark Johnson is a renowned project manager with over 18 years of
+                experience in the field. He has been working with Rinterio for
+                over 6 years. He has a passion for creating beautiful and
+                functional projects. Mark is always eager to learn and improve
+                his skills.
+              </p>
+              <div class="flex items-center space-x-2">
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="p-4 rounded-2xl bg-slate-100 shadow-md space-y-4">
+              <div class="flex items-center space-x-4">
+                <img
+                  class="w-12 h-12 rounded-full bg-cover"
+                  src="./assets/review4.jpg"
+                  alt=""
+                />
+                <div class="flex-grow">
+                  <h4 class="font-bold text-xl">Sarah Williams</h4>
+                  <p class="text-sm opacity-80">Builder</p>
+                </div>
+              </div>
+              <p class="text-lg opacity-80">
+                Sarah Williams is a renowned builder with over 12 years of
+                experience in the field. She has been working with Rinterio for
+                over 4 years. She has a passion for creating beautiful and
+                functional homes. Sarah is always eager to learn and improve her
+                skills.
+              </p>
+              <div class="flex items-center space-x-2">
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <!-- card 5 -->
+            <div class="p-4 rounded-2xl bg-slate-100 shadow-md space-y-4">
+              <div class="flex items-center space-x-4">
+                <img
+                  class="w-12 h-12 rounded-full bg-cover"
+                  src="./assets/review5.jpg"
+                  alt=""
+                />
+                <div class="flex-grow">
+                  <h4 class="font-bold text-xl">Michael Brown</h4>
+                  <p class="text-sm opacity-80">Architect</p>
+                </div>
+              </div>
+              <p class="text-lg opacity-80">
+                Michael Brown is a renowned architect with over 25 years of
+                experience in the field. He has been working with Rinterio for
+                over 15 years. He has a passion for creating beautiful and
+                functional homes. Michael is always eager to learn and improve
+                his work with Rinterio.
+              </p>
+              <div class="flex items-center space-x-2">
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div class="p-4 rounded-2xl bg-slate-100 shadow-md space-y-4">
+              <div class="flex items-center space-x-4">
+                <img
+                  class="w-12 h-12 rounded-full bg-cover"
+                  src="./assets/review6.jpg"
+                  alt=""
+                />
+                <div class="flex-grow">
+                  <h4 class="font-bold text-xl">Emily Davis</h4>
+                  <p class="text-sm opacity-80">Engineer</p>
+                </div>
+              </div>
+              <p class="text-lg opacity-80">
+                Emily Davis is a renowned engineer with over 18 years of
+                experience in the field. She has been working with Rinterio for
+                over 6 years. She has a passion for creating beautiful and
+                functional buildings. Emily is always eager to learn and improve
+                his work with Rinterio.
+              </p>
+              <div class="flex items-center space-x-2">
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-black">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- show more -->
+          <div class="flex justify-center mt-2">
+            <button class="text-xl bg-primary p-2 rounded-3xl">
+              Show More<i class="fa-solid fa-arrow-right mx-2 -rotate-45"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
       <!--? testimonials section -->
       <section class="testimonials">
         <div class="container mx-auto py-6 px-6">
@@ -476,12 +695,8 @@
       <!-- ?lets connect -->
 
       <section
-        class="lets-connect px-6"
-        style="
-          background-image: url(./assets/bg.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-        "
+        class="lets-connect px-6 bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover"
+
       >
         <div class="container mx-auto py-6">
           <!-- headings  -->
@@ -544,8 +759,9 @@
           Rinterio
         </a>
         <p class="text-slate-300">
-          The barn house captivates with its blend of rustic<br /> charm and 
-          modern sophistication, featuring weathered wood, sleek metal accents.
+          The barn house captivates with its blend of rustic<br />
+          charm and modern sophistication, featuring weathered wood, sleek metal
+          accents.
         </p>
       </div>
 
