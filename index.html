@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -141,15 +141,17 @@
     <main class="bg-slate-100">
       <!-- ?about us section -->
       <section
-        class="about-us py-10 px-6" 
+        class="about-us py-10 px-6"
         style="
-        background-image: url(./assets/Vector.png);
-        background-repeat: no-repeat;
-      "
+          background-image: url(./assets/Vector.png);
+          background-repeat: no-repeat;
+        "
       >
         <div class="container mx-auto lg:flex lg:justify-between space-x-16">
           <!-- left content  -->
-          <div class="lg:w-1/2 text-center lg:text-left py-4 lg:space-y-10">
+          <div
+            class="lg:w-1/2 text-center lg:text-left py-4 space-y-4 lg:space-y-10"
+          >
             <button class="text-xl bg-slate-200 p-2 rounded-3xl">
               <i class="fa-solid fa-arrow-right mx-2"></i>About Us
             </button>
@@ -166,7 +168,7 @@
               </p>
             </div>
 
-            <div class="cards-container lg:space-y-6">
+            <div class="cards-container space-y-3 lg:space-y-6">
               <!-- card 1 -->
               <div
                 class="flex justify-center items-center text-left mb-8 space-x-4 p-8 rounded-2xl bg-white"
@@ -619,93 +621,15 @@
         </div>
       </section>
 
-      <!--? testimonials section -->
-      <section class="testimonials">
-        <div class="container mx-auto py-6 px-6">
-          <!-- headings  -->
-          <div class="text-center space-y-4">
-            <button class="text-xl bg-slate-200 p-2 rounded-3xl">
-              <i class="fa-solid fa-arrow-right mx-2"></i>Testimonials
-            </button>
-            <h3 class="font-bold text-3xl lg:text-6xl">What Our Clients Say</h3>
-            <p class="text-lg lg:w-2/3 mx-auto opacity-80">
-              Our team of experienced professionals has been working tirelessly
-              to build trust and create a lasting connection with our clients.
-            </p>
-          </div>
-          <!-- testimonial cards  -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
-            <!-- card 1 -->
-            <div class="p-4 rounded-2xl bg-white">
-              <div>
-                <img src="./assets/review.png" alt="" />
-              </div>
-              <div class="mt-4">
-                <h4 class="font-bold text-xl">Phil Foden</h4>
-                <p class="text-lg opacity-80">
-                  "Rinterio has been a fantastic real estate agency for our
-                  family. We have been working with them for over 10 years and
-                  they have consistently delivered exceptional results."
-                </p>
-              </div>
-            </div>
-            <!-- card 2 -->
-            <div class="p-4 rounded-2xl bg-white">
-              <div>
-                <img
-                  class="h-20 w-20 rounded-full"
-                  src="./assets/review2.png"
-                  alt=""
-                />
-              </div>
-              <div class="mt-4">
-                <h4 class="font-bold text-xl">Erling Haaland</h4>
-                <p class="text-lg opacity-80">
-                  "Rinterio has been a fantastic real estate agency for our
-                  family. We have been working with them for over 10 years and
-                  they have consistently delivered exceptional results."
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- card 3 -->
-          <div class="p-4 rounded-2xl bg-white">
-            <div>
-              <img
-                class="h-20 w-20 rounded-full"
-                src="./assets/review3.png"
-                alt=""
-              />
-            </div>
-            <div class="mt-4">
-              <h4 class="font-bold text-xl">Kevin De Bruyne</h4>
-              <p class="text-lg opacity-80">
-                "Rinterio has been a fantastic real estate agency for our
-                family. We have been working with them for over 10 years and
-                they have consistently delivered exceptional results to our
-                customers and have been working with them on a daily basis."
-              </p>
-            </div>
-          </div>
-          <!-- show more -->
-          <div class="flex justify-end mt-4">
-            <button class="text-xl bg-primary p-2 rounded-3xl">
-              Show More<i class="fa-solid fa-arrow-right mx-2 -rotate-45"></i>
-            </button>
-          </div>
-        </div>
-      </section>
-
       <!-- ?lets connect -->
 
       <section
         class="lets-connect px-6"
         style="
-        background-image: url(./assets/bg.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      "
-
+          background-image: url(./assets/bg.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
       >
         <div class="container mx-auto py-6">
           <!-- headings  -->
@@ -758,15 +682,14 @@
     <footer
       class="footer footer-center bg-black text-base-content rounded p-10"
     >
-      <div class="space-x-4">
-        <a class="flex text-white text-3xl font-bold">
-          <div class="space-x-4">
-            <i
-              class="fa-solid fa-arrow-right bg-secondary p-2 rounded-full -rotate-45"
-            ></i>
-          </div>
+      <div class="space-y-2">
+        <a class="text-white text-3xl font-bold">
+          <i
+            class="fa-solid fa-arrow-right bg-secondary p-2 rounded-full -rotate-45"
+          ></i>
           Rinterio
         </a>
+
         <p class="text-slate-300">
           The barn house captivates with its blend of rustic<br />
           charm and modern sophistication, featuring weathered wood, sleek metal
